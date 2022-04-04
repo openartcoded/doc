@@ -7,7 +7,7 @@ title = "Openartcoded - Documentation"
 
 [output.html]
 default-theme = "ayu"
-theme = "ayu"
+preferred-dark-theme = "navy"
 
 [output.html.search]
 limit-results = 15
