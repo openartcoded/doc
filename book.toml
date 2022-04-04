@@ -1,0 +1,13 @@
+[book]
+authors = ["Nordine Bittich"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Openartcoded - Documentation"
+
+[output.html]
+default-theme = "ayu"
+theme = "ayu"
+
+[output.html.search]
+limit-results = 15
