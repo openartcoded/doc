@@ -14,19 +14,6 @@ It has been tested on linux, mac and windows, although on windows you might have
 
 There are different ways of running the stack, either locally (for e.g testing, development), or for production. 
 
-## Testing & Development
-
-This part is common for all scenarios described below.
-
-Add the following into your `/etc/hosts`
-
-```
-127.0.1.1       auth.somehost.org
-127.0.1.1       somehost.org
-127.0.1.1       backoffice.somehost.org
-127.0.1.1       mail.somehost.org
-```
-
 ### Testing, frontend development
 
 If you just want to contribute in one of the frontends, or simply testing it without having to compile the backends, follow these steps:

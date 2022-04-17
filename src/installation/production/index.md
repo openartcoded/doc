@@ -46,8 +46,7 @@ Open `docker-compose.override.yml` with your favorite editor and changes the fol
 |    __ARTEMIS_PASSWORD__              | secret_password             | Artemis password                         |
 |    __POSTGRES_PASSWORD__             | secret_password             | Postgres password for keycloak           |
 |    __DRIVE_APPLICATION_NAME__        | yourdomain                  | Google drive application's name          |
-|    __KEYCLOAK_USER__                 | keycloak                    | Keycloak's root username                 |
-|    __KEYCLOAK_PASSWORD__             | keycloak                    | Keycloak's root password                 |
+|    __KEYCLOAK_HOSTNAME__             | auth.somehost.org           | Keycloak's hostname                      |
   
 > If you're familiar with docker secrets, it is a better way of doing this
 
@@ -100,4 +99,4 @@ You have to generate your own realm, users & roles. Go to https://auth.your-doma
 
 You might have to change the `user`in docker-composer.override.yml if it's not 1000. 
 
-For prometheus, you probably need to create an application on keycloak (see config/prometheus_dev.yml for an example of prometheus config)
+For prometheus, you probably need to create a service account & a role "ROLE_PROMETHEUS" on keycloak (see config/prometheus_dev.yml for an example of prometheus config)

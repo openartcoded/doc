@@ -1,7 +1,21 @@
+```
 Once done, up the stack:
 
     docker-compose up -d
 
+In the terminal, run:
+
+    docker exec -it app-docker_keycloak_1 /opt/keycloak/bin/kc.sh import \
+        --file /tmp/import/artcoded-realm.json
+
+Add the following into your `/etc/hosts`
+
+```
+127.0.1.1       auth.somehost.org
+127.0.1.1       somehost.org
+127.0.1.1       backoffice.somehost.org
+127.0.1.1       mail.somehost.org
+```
 
 Open a private browser's window and visit [BackOffice](https://backoffice.somehost.org)
 
