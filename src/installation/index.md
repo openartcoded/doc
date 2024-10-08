@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-You need at least `git`, `docker` and `docker-compose` installed on your machine to run the whole stack.
+You need at least `git`, `docker` and `docker compose` installed on your machine to run the whole stack.
 
 Additionally, if you want to develop in one of the components, you will need to have installed:
 
