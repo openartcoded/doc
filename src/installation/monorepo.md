@@ -34,7 +34,7 @@ cp .env.monorepo.example .env
 
 Build the stack:
 
-    docker-compose build
+    docker compose build
 
 
 {{#include ./common-local.md}}
