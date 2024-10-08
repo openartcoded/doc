@@ -1,7 +1,7 @@
 Once done, up the stack:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 In the terminal, run:
