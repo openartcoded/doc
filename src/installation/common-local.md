@@ -7,7 +7,7 @@ docker-compose up -d
 In the terminal, run:
 
 ```bash
-docker exec -it app-docker_keycloak_1 /opt/keycloak/bin/kc.sh import \
+docker exec -it app-docker-keycloak-1 /opt/keycloak/bin/kc.sh import \
         --file /tmp/import/artcoded-realm.json
 ```
 
